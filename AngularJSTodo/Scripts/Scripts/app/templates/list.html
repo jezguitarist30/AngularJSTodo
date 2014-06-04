@@ -1,0 +1,73 @@
+﻿ <h1>How to use Model to update data</h1>
+<input type="text" ng-model="name" />
+<p>My Name is: {{name}}</p>
+
+<br/><br/><br/>
+
+<h1>Pass data from different Controllers</h1>
+<input type="text" ng-model="getResultForPeople" />
+<button ng-click="changeResponse()" class="btn btn-primary">Pass Data</button>
+
+<br/><br/><br/>
+
+<h1>Creating and Consuming your own Directives</h1>
+<div from="Jez Reel" greet="Everyone"></div>
+
+<br/><br/><br/>
+
+<h1>using CRUD to get list from API</h1>
+
+<div style="display:inline-block">
+    
+    <input type="text" ng-model="query" class="form-control input-sm" placeholder="Search" />
+    <button ng-click="reset()" ><i class="glyphicon glyphicon-search"></i></button>
+    <button ng-click="query=''; reset()" ng-disabled="!query" class="btn">Reset</button>
+</div>   
+
+<table class="table table-striped table-condensed table-hover">
+    <thead>
+        <!--       <th><a ng-click="sort_by('Id')">ID</a>
+                       <span ng-show="sort_order == 'Id' && is_desc == true"><i class="glyphicon glyphicon-arrow-down"></i></span> 
+                       <span ng-show="sort_order == 'Id' && is_desc == false"><i class="glyphicon glyphicon-arrow-up"></i></span> 
+                   </th>
+            <th><a ng-click="sort_by('Task')">Task</a>
+                <span ng-show="sort_order == 'Task' && is_desc == true"><i class="glyphicon glyphicon-arrow-down"></i></span> 
+                <span ng-show="sort_order == 'Task' && is_desc == false"><i class="glyphicon glyphicon-arrow-up"></i></span> 
+            </th>
+            <th><a ng-click="sort_by('Priority')">Priority</a>
+                <span ng-show="sort_order == 'Priority' && is_desc == true"><i class="glyphicon glyphicon-arrow-down"></i></span> 
+                <span ng-show="sort_order == 'Priority' && is_desc == false"><i class="glyphicon glyphicon-arrow-up"></i></span> 
+            </th>
+            <th><a ng-click="sort_by('DueDate')">Due</a>
+                <span ng-show="sort_order == 'DueDate' && is_desc == true"><i class="glyphicon glyphicon-arrow-down"></i></span> 
+                <span ng-show="sort_order == 'DueDate' && is_desc == false"><i class="glyphicon glyphicon-arrow-up"></i></span> 
+            </th> 
+            -->
+        
+        <th sorted="Id">ID</th>
+        <th sorted="Task">Task</th>
+        <th sorted="Priority">Priority</th>
+        <th sorted="DueDate">Due</th>    
+
+        <th>
+            <a href="#/add" >
+                <i class="glyphicon glyphicon-plus"></i>
+            </a>
+        </th>
+    </thead>
+    <tbody>
+        <tr ng-repeat="todo in items track by todo.Id" id="todo_{{todo.Id}}">
+            <td>{{todo.Id}}</td>
+            <td>{{todo.Task}}</td>
+            <td>{{todo.Priority}}</td>
+            <td>{{todo.DueDate | date : mediumdate}}</td>
+            <td>
+                <a href="#/edit/{{todo.Id}}"><i class="glyphicon glyphicon-edit"></i></a>
+                <span ng-click="delete()"><i class="glyphicon glyphicon-remove"></i></span>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+<a ng-show="more" ng-click="show_more()">Show More</a>

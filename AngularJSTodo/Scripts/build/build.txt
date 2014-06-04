@@ -1,0 +1,18 @@
+
+main.annotate.js
+----------------
+C:/Users/JEZREEL/Documents/JEZ REEL/GitHub Repositories/Tutorial/AngularJSTodo/AngularJSTodo/Scripts/lib/jquery-1.9.1.min.js
+C:/Users/JEZREEL/Documents/JEZ REEL/GitHub Repositories/Tutorial/AngularJSTodo/AngularJSTodo/Scripts/lib/angular.min.js
+C:/Users/JEZREEL/Documents/JEZ REEL/GitHub Repositories/Tutorial/AngularJSTodo/AngularJSTodo/Scripts/lib/angular-resource.min.js
+C:/Users/JEZREEL/Documents/JEZ REEL/GitHub Repositories/Tutorial/AngularJSTodo/AngularJSTodo/Scripts/lib/angular-route.min.js
+C:/Users/JEZREEL/Documents/JEZ REEL/GitHub Repositories/Tutorial/AngularJSTodo/AngularJSTodo/Scripts/app/modules/services.js
+C:/Users/JEZREEL/Documents/JEZ REEL/GitHub Repositories/Tutorial/AngularJSTodo/AngularJSTodo/Scripts/app/factory/List.js
+C:/Users/JEZREEL/Documents/JEZ REEL/GitHub Repositories/Tutorial/AngularJSTodo/AngularJSTodo/Scripts/app/factory/peopleService.js
+C:/Users/JEZREEL/Documents/JEZ REEL/GitHub Repositories/Tutorial/AngularJSTodo/AngularJSTodo/Scripts/app/factory/index.js
+C:/Users/JEZREEL/Documents/JEZ REEL/GitHub Repositories/Tutorial/AngularJSTodo/AngularJSTodo/Scripts/app/modules/controller.js
+C:/Users/JEZREEL/Documents/JEZ REEL/GitHub Repositories/Tutorial/AngularJSTodo/AngularJSTodo/Scripts/app/controllers/todoController.js
+C:/Users/JEZREEL/Documents/JEZ REEL/GitHub Repositories/Tutorial/AngularJSTodo/AngularJSTodo/Scripts/app/controllers/createController.js
+C:/Users/JEZREEL/Documents/JEZ REEL/GitHub Repositories/Tutorial/AngularJSTodo/AngularJSTodo/Scripts/app/controllers/updateController.js
+C:/Users/JEZREEL/Documents/JEZ REEL/GitHub Repositories/Tutorial/AngularJSTodo/AngularJSTodo/Scripts/app/controllers/index.js
+C:/Users/JEZREEL/Documents/JEZ REEL/GitHub Repositories/Tutorial/AngularJSTodo/AngularJSTodo/Scripts/app/app.annotate.js
+main.annotate.js

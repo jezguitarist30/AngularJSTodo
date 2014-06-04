@@ -1,0 +1,1 @@
+define(["app/modules/services"],function(appServices){appServices.factory("TodoList",["$resource",function($resource){return $resource("/api/todo/:id",{id:"@id"},{update:{method:"PUT"}})}])});

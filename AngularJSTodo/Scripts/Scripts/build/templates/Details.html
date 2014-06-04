@@ -1,0 +1,28 @@
+﻿<h1>Recieve data from different Controllers</h1>
+<input ng-model="getResultForPeople" type="text" />
+
+<h1>{{action}} Todo</h1>
+
+<form name="form1">
+    
+    <div>        
+        <label class="control-label" for="Task">Task</label>
+        <input ng-model="item.Task" type="text" name="Task" id="Task"  />
+        <br/>
+        <label class="control-label" for="DueDate">Due:</label>
+        <input type="text" ng-model="item.DueDate" name="DueDate" id="DueDate" />
+        <br/>
+        <label class="control-label" for="Priority">Priority:</label>
+        <input type="number" ng-model="item.Priority" name="Priority" id="Priority" />
+
+    </div>
+    
+    <div style="display: inline-block; position: relative;">        
+        <button ng-click="save()" class="btn btn-primary">
+            {{action}}
+        </button>
+        <a href="/Index.html" class="btn">Cancel</a>
+
+    </div>
+
+</form>
